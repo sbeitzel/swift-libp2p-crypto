@@ -1756,7 +1756,7 @@ final class libp2p_cryptoTests: XCTestCase {
         )
     }
 
-    static var allTests = [
+    static let allTests = [
         ("testRSA1024", testRSA1024),
         ("tesED25519", testED25519),
         ("testSecp256k1", testSecp256k1),
